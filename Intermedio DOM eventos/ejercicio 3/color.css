@@ -1,0 +1,43 @@
+:root {
+    --background-color: white;
+    --background-color-1: #950404;
+    --background-color-2: #2e2e6d;
+    --background-color-3: #ffd700;
+    --background-color-4: #800080;  
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 30rem;
+    width: 30rem;
+}
+
+.contenedor {
+   background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+    align-items: center;
+    border: 1px solid black;
+    height: 30rem;
+    width: 50rem;
+}
+
+.contenedor-arriba {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    color: white;
+    position: absolute;
+    top: 40px;
+    width: 300px;
+    height: auto;
+    padding: 3px;
+}
+

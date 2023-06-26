@@ -1,0 +1,24 @@
+:root {
+    --color: grey;
+    --color-text: white;
+}
+
+fieldset {
+    background-color: var(--color);
+    color: var(--color-text);
+    padding: 5px;
+}
+
+fieldset .contenedor-respuesta {
+    display: flex;
+    align-items: center;
+}
+
+fieldset .contenedor-respuesta span {
+    --color-fondo-sec: white;
+    --color-default: black;
+    background-color: var(--color-fondo-sec);
+    color: var(--color-default);
+    padding: 3px;
+    margin-left: 20px;
+}

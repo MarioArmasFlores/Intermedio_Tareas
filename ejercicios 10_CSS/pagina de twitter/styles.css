@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    border: 0;
+}
+html{
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI',sans-serif;
+
+}
+p{
+    color: #5e6367;
+    font-size: 15px;
+}
+h4 {
+    font-size: 17px;
+}
+img {
+    width: 30px;
+    height: 30px;
+
+}
+.contenedor-padre {
+    
+    height: 100%;
+    
+
+    
+}
+.contenedor-primario {
+    height: 540px;
+    display: flex; 
+    margin: 1px;
+    padding: 2px; 
+}
+
+.uno {
+    width: 25%;
+    height: 100%;
+    margin: 1px;
+    margin-left:25px;
+    display: flex;
+    justify-content: center;
+    padding-left: 15px;
+    
+}
+
+.contenedor-secundario {
+    width: 45%; 
+    border: 2px solid #5e6367;
+    height: 100%;
+    height: max-content;
+    
+    
+}
+.dos {
+    height: 20%;
+    margin: 1px;
+}
+.seccion-busqueda {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3px;
+    padding-left: 16px;
+}
+.tres {
+    height: 80%;
+    margin: 1px;
+    padding-left: 16px;
+    padding-right: 16px;
+    
+
+}
+.cuatro {
+    height: 100%;
+    width: 35%;
+    margin: 1px;
+    padding-left: 20px;
+    padding-top: 8px;
+    justify-content: center;
+   
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 15%;
+    width: 100%;
+    border: 1px solid white;
+}
+.iconos {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 3px;
+    width:fit-content;
+    height: fit-content;
+    padding-top: 8px;
+
+    
+}
+.logo-twitter {
+
+    
+    margin: 2px;
+}
+.logo-hashtag {
+    
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.logo-settings {
+    
+    margin: 2px;
+    display: flex;
+    align-items: center;
+
+}
+.panel {
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 320px;
+    height: fit-content;
+    align-items: flex-start;
+    padding: 10px;
+    
+}
+.texto2-eresNuevo {
+    font-size: 13px;
+    font-family: Helvetica, sans-serif;
+    color: #536471;
+}
+.Registro-boton {
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    background-color: #ffffff;
+    border-radius: 9999px;
+    margin: 12px;
+    height: 35px;
+}
+.texto3 {
+    font-size: 13px;
+    color: #536471;
+    margin: 4px;
+    border-radius: 10px;
+}
+.texto-4 {
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 100px;
+    height: fit-content;
+    margin-top: 15px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d9bf0;
+    height: 13%;
+    width: 100%;
+}
+.div-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.botones-iniciarSesion {
+    display: flex;
+    justify-content: end;
+    width: 80%;
+    margin: 12px;
+    
+}
+.botonIni1 {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 9999px;
+    margin: 2px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    
+    
+}
+.botonIni2 {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 9999px;
+    margin: 2px;
+    padding: 3px;
+    padding-left: 16px;
+    padding-right: 16px ;
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    
+    
+    
+}
+.mensaje-footer { 
+    margin: 12px;
+    width: 750px;
+}
+.notepierdas {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.los-usuarios {
+    font-size: 15px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto-sencillo {
+    margin: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.texto-bandera {
+    
+    display: flex;
+    justify-content: space-between;
+
+    align-items:center;
+
+
+    
+}
+
+.texto-bandera-izquierda {
+    height: 10%;
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    margin: 6px;
+}
+.colorAzulC {
+    background-color: #171796;
+}
+.colorAzulO {
+    background-color: #000555;
+}
+.texto-estilo-base {
+    color: #5e6367;
+    font-size: 15px; 
+}
+.contenedor-secciones {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-bottom: 2px solid #5e6367;
+}
+.secciones-estilo {
+    display: flex;
+    font-size: 16px;
+    color: #5e6367;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.secciones-estilo-subrayado {
+    display: flex;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #1D9Bf0;
+}
+
+.elemento-distanciados-10px-R {
+    margin-left: 15px;
+    font-size: 20px;
+    color: white;
+}
+.lupa-barra {
+    
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.seccion-busqueda {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 400px;
+   
+   background-color: #202327;
+   border-radius: 100px;
+   
+}
+.lupa-barra-contenedor {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px;
+    padding-left: 16px;
+    
+}
+.search-icon {
+    color: #5e6367;
+    margin-top: 6px;
+}
+.texto-noticias-margen {
+    
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.Registro-boton{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 10px;
+    
+}
+.seccion-busqueda input {
+    background-color: #202327;
+    width: 340px;
+    height: 35px;
+    border: none;
+    outline: none;
+    margin-left: 12px;
+    font-size: 16px;
+    color: white; 
+    
+}
+input:focus::placeholder {
+    color: transparent;
+    color: #5e6367;
+}
+.link-terminos {
+    color: #136AA5
+}

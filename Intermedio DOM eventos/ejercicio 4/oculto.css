@@ -1,0 +1,36 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 30rem;
+    width: 30rem;
+}
+
+.contenedor {
+    --visibilidad: visible;
+    visibility: var(--visibilidad);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+    align-items: center;
+    height: 30rem;
+    width: 50rem;
+}
+
+.contenedor-arriba {
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 40px;
+    width: 300px;
+    height: auto;
+    padding: 3px;
+}

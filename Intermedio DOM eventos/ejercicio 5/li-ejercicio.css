@@ -1,0 +1,22 @@
+ 
+.contenedor-respuesta {
+    background-color: bisque;
+}
+
+.lista {
+    display: flex;
+    align-items: baseline;
+} 
+
+ 
+li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+}
+ 
+ 
+ .pavo {
+    font-size: 40px;
+}
+

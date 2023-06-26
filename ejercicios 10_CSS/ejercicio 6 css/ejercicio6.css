@@ -1,0 +1,13 @@
+.circulo { 
+    width: 100px;
+    height: 100px;
+    background-color: #520baf;
+    border-radius: 250px;
+    border: 5px solid orange ;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

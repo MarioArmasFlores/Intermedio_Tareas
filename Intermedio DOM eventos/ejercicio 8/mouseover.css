@@ -1,0 +1,36 @@
+body {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+}
+
+.img-lobo {
+    height: fit-content;
+    width: fit-content;
+    margin-top: 30px;
+
+}
+
+.img-lobo img {
+    height: 30rem;
+    width: 25rem;
+}
+
+body div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #b40406;
+    font-style: italic;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+span {
+    color: #b40406;
+    font-style: italic;
+    font-weight: bold;
+    font-size: x-large;
+}

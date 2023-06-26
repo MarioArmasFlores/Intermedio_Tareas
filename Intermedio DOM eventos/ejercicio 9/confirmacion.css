@@ -1,0 +1,27 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20rem;
+}
+
+
+
+.contenedor-info {
+    font-size: 40px;
+    background-color: rgb(94, 51, 135);
+    border: 3px solid rgb(82, 133, 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    margin-right: 20px;
+
+}
+
+.boton {
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #100420 ;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cuadrado {
+    width: 400px;
+    height: 150px;
+    border: 4px;
+    border-style: dotted;
+    margin: 50px;
+    padding: 40px;
+    background-color: darkmagenta;
+}
+h2 {
+   text-align: center;
+   
+}

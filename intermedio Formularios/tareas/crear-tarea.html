@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tareas.css">
+    <title>Crear Tarea</title>
+</head>
+
+<body>
+    <div class="arriba-derecha"><h3>Para Editar solo toca el texto que quieras cambiar en la nota.</h3></div>
+
+    <div class="arriba">
+        <div class="container">
+
+            <h1>Crea tus Tareas!</h1>
+            <div class="creacion">
+                <form action="">
+                    <div class="flex-2">
+                        <input id="usuario" type="text" placeholder="name">
+                        <input id="fecha-ven" type="date">
+                    </div>
+                    <input id="titulo" type="text" placeholder="Title">
+                    <input id="contenido" type="text" placeholder="Content" overflow-wrap="break-word">
+                    <button id="btn-crearTarea">Crear Tarea</button>
+                </form>
+            </div>
+        </div>
+        <br><br>
+        <div class="lists">
+
+            <div class="list" id="pendientes">
+
+
+            </div>
+
+            <div class="list" id="en-progreso"></div>
+
+
+            <div class="list" id="completado"></div>
+
+        </div>
+    </div>
+    
+
+
+    <script src="crear-tareas.js"></script>
+</body>
+
+</html>

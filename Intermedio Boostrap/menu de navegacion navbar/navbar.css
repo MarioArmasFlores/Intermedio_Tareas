@@ -1,0 +1,43 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+.nav-right-side {
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.nav-right-side li {
+    
+    margin: 20px;
+    list-style: none;
+}
+.btn {
+    border: 1px solid black;
+    padding: 6px;
+    border-radius: 50%;
+}
+.tittle {
+    font-size: large;
+}
+.n1:hover {
+    padding: 9px;
+    background-color: rgb(253, 253, 56);
+}
+.n2:hover {
+    padding: 9px;
+    background-color: rgb(253, 174, 56);
+}
+.n3:hover {
+    padding: 9px;
+    background-color: rgb(253, 131, 56);
+}
+.n4:hover {
+    padding: 9px;
+    background-color: rgb(253, 56, 95);
+}
